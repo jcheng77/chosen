@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  brand_id: 1
+  brand_name: MyString
+  first_letter: MyString
+  brand_logo: MyString
+  brand_country: MyString
+  man_id: 1
+  man_name: MyString
+  serial_id: 1
+  serial_name: MyString
+  serial_pic: MyString
+  serial_first: MyString
+  serial_low_price: 1.5
+  serial_high_price: 1.5
+  serial_lever: MyString
+  serial_country: MyString
+  serial_displace: MyString
+  serial_producting_state: MyString
+  serial_video: MyString
+  serial_use_way: MyString
+  serial_competion: MyString
+  hd_pics: MyString
+
+two:
+  brand_id: 1
+  brand_name: MyString
+  first_letter: MyString
+  brand_logo: MyString
+  brand_country: MyString
+  man_id: 1
+  man_name: MyString
+  serial_id: 1
+  serial_name: MyString
+  serial_pic: MyString
+  serial_first: MyString
+  serial_low_price: 1.5
+  serial_high_price: 1.5
+  serial_lever: MyString
+  serial_country: MyString
+  serial_displace: MyString
+  serial_producting_state: MyString
+  serial_video: MyString
+  serial_use_way: MyString
+  serial_competion: MyString
+  hd_pics: MyString

@@ -1,0 +1,4 @@
+$("#car-pic").html("<%=escape_javascript(render @vehicle) %>");
+$("#car-pic").css("background-image","url('<%= asset_path @vehicle.image_url %>')");
+
+

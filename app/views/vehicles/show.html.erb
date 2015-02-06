@@ -1,0 +1,30 @@
+<div class="model">
+  <span class="title"><%= @vehicle.brand +  @vehicle.model  %> </span>
+  <span class="desc"> 指导价:
+  <span class="price"><%= @vehicle.lowest_price.to_s + ' ~ ' + @vehicle.highest_price.to_s  %> </span>
+万</span>
+<%= link_to '下一个', vehicle_path(@vehicle.id + 1) , :class => 'button-img pull-right'  %>
+
+</div>
+
+
+
+<p id="notice"><%= notice %></p>
+
+<div class="car-pic-whole">
+    <%= render :partial => 'vehicle' , :locals =>{ :vehicle => @vehicle }%>
+</div>
+
+<p>
+  <%= render :partial => "tag_form" %>
+</p>
+
+<p>
+  <strong>All tags:</strong>
+
+
+</p>
+
+
+<%= link_to 'Edit', edit_vehicle_path(@vehicle) %> |
+<%= link_to 'Back', vehicles_path %>

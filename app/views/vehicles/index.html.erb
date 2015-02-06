@@ -1,0 +1,24 @@
+<h1>Listing vehicles</h1>
+
+Current selected tags:
+<% if @search_tags %>
+  <% @search_tags.map do |tag| %>
+    <% if tag %>
+      <%= link_to tag.to_s, remove_tag_path(tag), :method => 'get' %>
+    <% end %>
+  <% end %>
+<% end %>
+
+<%= button_to "clear filter", clear_tags_path, :method => 'get' %>
+
+    <% @vehicles.each_with_index do |vehicle,i| %>
+<div class="car-pic-whole">
+      <div class="row">
+      <%= render :partial => 'vehicle' , :locals => { :vehicle => vehicle } %>
+  </div>
+  </div>
+    <% end %>
+
+<br>
+
+<%= link_to 'New Vehicle', new_vehicle_path %>

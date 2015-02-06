@@ -1,0 +1,21 @@
+<%= form_for(@vehicle, :url => add_tag_vehicle_path, :method => :put) do |f| %>
+  <% if @vehicle.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@vehicle.errors.count, "error") %> prohibited this vehicle from being saved:</h2>
+
+      <ul>
+      <% @vehicle.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :AddNewtag %><br>
+    <%= f.text_field :tag %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Add New Tag" %>
+  </div>
+<% end %>

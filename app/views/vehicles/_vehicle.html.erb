@@ -1,0 +1,8 @@
+    <%= image_tag vehicle.image_url , :class=> 'car-image' %>
+
+    <div class="label-list">
+
+  <% vehicle.tag_list.map do |t|  %>
+    <%= render :partial => 'label' , :locals => {:object => t.to_s} %>
+<% end %>
+</div>

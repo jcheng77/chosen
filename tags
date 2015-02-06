@@ -1,0 +1,93 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+ActsAsTaggableOnMigration	db/migrate/20150101164111_acts_as_taggable_on_migration.acts_as_taggable_on_engine.rb	/^class ActsAsTaggableOnMigration < ActiveRecord::Migration$/;"	c
+AddMissingUniqueIndices	db/migrate/20150101164112_add_missing_unique_indices.acts_as_taggable_on_engine.rb	/^class AddMissingUniqueIndices < ActiveRecord::Migration$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Chosen
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Brand	app/models/car/brand.rb	/^  class Brand < ActiveRecord::Base$/;"	c	class:Car
+Car	app/models/car/brand.rb	/^module Car$/;"	m
+Car	app/models/car/color.rb	/^module Car$/;"	m
+Car	app/models/car/maker.rb	/^module Car$/;"	m
+Car	app/models/car/model.rb	/^module Car$/;"	m
+Car	app/models/car/pic.rb	/^module Car$/;"	m
+Car	app/models/car/price.rb	/^module Car$/;"	m
+Car	app/models/car/trim.rb	/^module Car$/;"	m
+CarImport	lib/car_import.rb	/^module CarImport$/;"	m
+CarsController	app/controllers/cars_controller.rb	/^class CarsController < ApplicationController$/;"	c
+Chosen	config/application.rb	/^module Chosen$/;"	m
+Color	app/models/car/color.rb	/^  class Color < ActiveRecord::Base$/;"	c	class:Car
+CreateCarBrands	db/migrate/20140822091916_create_car_brands.rb	/^class CreateCarBrands < ActiveRecord::Migration$/;"	c
+CreateCarColors	db/migrate/20140822101249_create_car_colors.rb	/^class CreateCarColors < ActiveRecord::Migration$/;"	c
+CreateCarMakers	db/migrate/20140822092253_create_car_makers.rb	/^class CreateCarMakers < ActiveRecord::Migration$/;"	c
+CreateCarModels	db/migrate/20140822101025_create_car_models.rb	/^class CreateCarModels < ActiveRecord::Migration$/;"	c
+CreateCarModelsShops	db/migrate/20141102160859_create_car_models_shops.rb	/^class CreateCarModelsShops < ActiveRecord::Migration$/;"	c
+CreateCarPics	db/migrate/20140822110646_create_car_pics.rb	/^class CreateCarPics < ActiveRecord::Migration$/;"	c
+CreateCarPrices	db/migrate/20141119121319_create_car_prices.rb	/^class CreateCarPrices < ActiveRecord::Migration$/;"	c
+CreateCarTrims	db/migrate/20140822101212_create_car_trims.rb	/^class CreateCarTrims < ActiveRecord::Migration$/;"	c
+CreateCars	db/migrate/20140805154323_create_cars.rb	/^class CreateCars < ActiveRecord::Migration$/;"	c
+CreateVehicles	db/migrate/20150101153229_create_vehicles.rb	/^class CreateVehicles < ActiveRecord::Migration$/;"	c
+Import	lib/car_import.rb	/^  class Import$/;"	c	class:CarImport
+Maker	app/models/car/maker.rb	/^  class Maker < ActiveRecord::Base$/;"	c	class:Car
+Model	app/models/car/model.rb	/^  class Model < ActiveRecord::Base$/;"	c	class:Car
+Pic	app/models/car/pic.rb	/^  class Pic < ActiveRecord::Base$/;"	c	class:Car
+Price	app/models/car/price.rb	/^  class Price < ActiveRecord::Base$/;"	c	class:Car
+Tag	app/models/tag.rb	/^class Tag < ActiveRecord::Base$/;"	c
+TagTest	test/models/tag_test.rb	/^class TagTest < ActiveSupport::TestCase$/;"	c
+Tagging	app/models/tagging.rb	/^class Tagging < ActiveRecord::Base$/;"	c
+TaggingTest	test/models/tagging_test.rb	/^class TaggingTest < ActiveSupport::TestCase$/;"	c
+Trim	app/models/car/trim.rb	/^  class Trim < ActiveRecord::Base$/;"	c	class:Car
+Vehicle	app/models/vehicle.rb	/^class Vehicle < ActiveRecord::Base$/;"	c
+VehicleTest	test/models/vehicle_test.rb	/^class VehicleTest < ActiveSupport::TestCase$/;"	c
+VehiclesController	app/controllers/vehicles_controller.rb	/^class VehiclesController < ApplicationController$/;"	c
+VehiclesControllerTest	test/controllers/vehicles_controller_test.rb	/^class VehiclesControllerTest < ActionController::TestCase$/;"	c
+VehiclesHelper	app/helpers/vehicles_helper.rb	/^module VehiclesHelper$/;"	m
+VehiclesHelperTest	test/helpers/vehicles_helper_test.rb	/^class VehiclesHelperTest < ActionView::TestCase$/;"	c
+add_brand_logo	app/controllers/cars_controller.rb	/^  def self.add_brand_logo(source='data\/car_brand_logo')$/;"	F	class:CarsController
+add_search_tag	app/controllers/application_controller.rb	/^  def add_search_tag(tag)$/;"	f	class:ApplicationController
+add_tag	app/controllers/vehicles_controller.rb	/^  def add_tag$/;"	f	class:VehiclesController
+associate_brands_with_shops	app/controllers/cars_controller.rb	/^  def self.associate_brands_with_shops$/;"	F	class:CarsController
+brands	app/controllers/cars_controller.rb	/^  def brands$/;"	f	class:CarsController
+bulk_import_cars	app/controllers/cars_controller.rb	/^  def self.bulk_import_cars$/;"	F	class:CarsController
+bulk_import_cars	lib/car_import.rb	/^   def self.bulk_import_cars$/;"	F	class:CarImport.Import
+change	db/migrate/20140805154323_create_cars.rb	/^  def change$/;"	f	class:CreateCars
+change	db/migrate/20140822091916_create_car_brands.rb	/^  def change$/;"	f	class:CreateCarBrands
+change	db/migrate/20140822092253_create_car_makers.rb	/^  def change$/;"	f	class:CreateCarMakers
+change	db/migrate/20140822101025_create_car_models.rb	/^  def change$/;"	f	class:CreateCarModels
+change	db/migrate/20140822101212_create_car_trims.rb	/^  def change$/;"	f	class:CreateCarTrims
+change	db/migrate/20140822101249_create_car_colors.rb	/^  def change$/;"	f	class:CreateCarColors
+change	db/migrate/20140822110646_create_car_pics.rb	/^  def change$/;"	f	class:CreateCarPics
+change	db/migrate/20141102160859_create_car_models_shops.rb	/^  def change$/;"	f	class:CreateCarModelsShops
+change	db/migrate/20141119121319_create_car_prices.rb	/^  def change$/;"	f	class:CreateCarPrices
+change	db/migrate/20150101153229_create_vehicles.rb	/^  def change$/;"	f	class:CreateVehicles
+change_car_pic_url	app/controllers/cars_controller.rb	/^  def self.change_car_pic_url$/;"	F	class:CarsController
+clear_search_tag	app/controllers/application_controller.rb	/^  def clear_search_tag$/;"	f	class:ApplicationController
+correct_model_name_and_pics	app/controllers/cars_controller.rb	/^  def self.correct_model_name_and_pics(source = 'data\/cars_pics_urls')$/;"	F	class:CarsController
+create	app/controllers/vehicles_controller.rb	/^  def create$/;"	f	class:VehiclesController
+destroy	app/controllers/vehicles_controller.rb	/^  def destroy$/;"	f	class:VehiclesController
+down	db/migrate/20150101164111_acts_as_taggable_on_migration.acts_as_taggable_on_engine.rb	/^  def self.down$/;"	F	class:ActsAsTaggableOnMigration
+down	db/migrate/20150101164112_add_missing_unique_indices.acts_as_taggable_on_engine.rb	/^  def self.down$/;"	F	class:AddMissingUniqueIndices
+edit	app/controllers/vehicles_controller.rb	/^  def edit$/;"	f	class:VehiclesController
+import_cars	app/controllers/cars_controller.rb	/^  def self.import_cars(file='data\/cars_info_000')$/;"	F	class:CarsController
+import_cars	lib/car_import.rb	/^   def self.import_cars(file='data\/cars_info_000')$/;"	F	class:CarImport.Import
+index	app/controllers/vehicles_controller.rb	/^  def index$/;"	f	class:VehiclesController
+list	app/controllers/cars_controller.rb	/^  def list$/;"	f	class:CarsController
+new	app/controllers/vehicles_controller.rb	/^  def new$/;"	f	class:VehiclesController
+remove_search_tag	app/controllers/application_controller.rb	/^  def remove_search_tag(tag)$/;"	f	class:ApplicationController
+reset_search	app/controllers/vehicles_controller.rb	/^  def reset_search$/;"	f	class:VehiclesController
+search	app/controllers/vehicles_controller.rb	/^  def search$/;"	f	class:VehiclesController
+search_tags	app/controllers/application_controller.rb	/^  def search_tags$/;"	f	class:ApplicationController
+set_search_params	app/controllers/vehicles_controller.rb	/^    def set_search_params$/;"	f	class:VehiclesController
+set_vehicle	app/controllers/vehicles_controller.rb	/^    def set_vehicle$/;"	f	class:VehiclesController
+show	app/controllers/vehicles_controller.rb	/^  def show$/;"	f	class:VehiclesController
+switch	app/controllers/vehicles_controller.rb	/^  def switch$/;"	f	class:VehiclesController
+trims	app/controllers/cars_controller.rb	/^  def trims$/;"	f	class:CarsController
+up	db/migrate/20150101164111_acts_as_taggable_on_migration.acts_as_taggable_on_engine.rb	/^  def self.up$/;"	F	class:ActsAsTaggableOnMigration
+up	db/migrate/20150101164112_add_missing_unique_indices.acts_as_taggable_on_engine.rb	/^  def self.up$/;"	F	class:AddMissingUniqueIndices
+update	app/controllers/vehicles_controller.rb	/^  def update$/;"	f	class:VehiclesController
+vehicle_params	app/controllers/vehicles_controller.rb	/^    def vehicle_params$/;"	f	class:VehiclesController

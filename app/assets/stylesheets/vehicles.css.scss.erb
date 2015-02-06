@@ -1,0 +1,122 @@
+// Place all the styles related to the vehicles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+//
+//
+
+
+
+body {
+  margin-left: 0px;
+  margin-top: -15px;
+  color: white;
+}
+
+.car-pic-half {
+  //background: image-url('v40show.jpg') no-repeat center center ;
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+   height: 450px;
+   position: relative;
+   overflow: hidden;
+}
+
+
+.car-pic-half {
+  @extend .car-pic;
+  height: 400px;
+  width: 50%;
+
+}
+
+.car-pic-whole {
+  @extend .car-pic;
+  height: 900px;
+  width: 100%;
+}
+
+.car-pic {
+  //background: image-url('v40show.jpg') no-repeat center center ;
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+   position: relative;
+   overflow: hidden;
+
+   a , a:link, a:hover, a:visited{
+     color: white;
+     text-decoration: none;
+   }
+
+     .car-image {
+       position: absolute; 
+       top: 50px; 
+       left: 0px; 
+       height: auto;
+       width: auto;
+       overflow: hidden;
+     }
+
+     .model {
+      top: 0px;
+      color: #333;
+
+      .button-img {
+       border: 1px solid #fff;
+       border-color: white;
+       width: 120px;
+       heigth: 30px;
+      }  
+
+
+      .title {
+      font-size: 28px;
+      }
+
+      .desc {
+        margin-left: 50px;
+      }
+
+      .price {
+        font-size: 15px;
+      }
+     }
+
+     .label-list {
+     }
+
+    .white-title{
+     color: white;
+     font-size: 22px;
+    }
+
+    .label-img {
+      position: relative;
+      left: 0;
+      top: 150px;
+      float: left;
+      height: 40px;
+      width: 1000px;
+
+      a, a:link, a:hover, a:visited {
+       text-decoration: none; 
+      }
+    }
+
+    .label-pic {
+      height: 67px;
+      width: 200px;
+      position: absolute;
+    }
+
+    .label-desc {
+      position: relative;
+      left: 60px;
+      top: 28px;
+      color: white;
+    }
+
+   
+}
+
