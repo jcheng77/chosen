@@ -8,6 +8,12 @@ class VehiclesController < ApplicationController
   def index
   end
 
+  def qq_data
+   respond_to do |format|
+     format.json { render :json => BrandModelTencent.all.to_json}
+    end
+  end
+
   # GET /vehicles
   # GET /vehicles.json
   def search
@@ -32,7 +38,6 @@ class VehiclesController < ApplicationController
 
 
   def show
-    @vehicle2 = Vehicle.find(2)
   end
 
   # GET /vehicles/new
@@ -123,5 +128,7 @@ class VehiclesController < ApplicationController
         @vehicles = Vehicle.all
       end
     end
+
+    
 
 end

@@ -15,6 +15,8 @@ gem 'faraday_middleware'
 gem 'pry'
 gem 'pry-nav'
 
+gem 'rack-cors', :require => 'rack/cors'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets

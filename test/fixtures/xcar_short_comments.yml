@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  brand_name: MyString
+  serial_name: MyString
+  good_comments: MyString
+  short_comments: MyString
+
+two:
+  brand_name: MyString
+  serial_name: MyString
+  good_comments: MyString
+  short_comments: MyString

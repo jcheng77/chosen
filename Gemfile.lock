@@ -72,6 +72,7 @@ GEM
     pry-nav (0.2.4)
       pry (>= 0.9.10, < 0.11.0)
     rack (1.5.2)
+    rack-cors (0.3.0)
     rack-test (0.6.2)
       rack (>= 1.0)
     rails (4.1.8)
@@ -137,6 +138,7 @@ DEPENDENCIES
   nokogiri
   pry
   pry-nav
+  rack-cors
   rails (= 4.1.8)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)

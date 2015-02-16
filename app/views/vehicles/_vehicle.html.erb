@@ -1,4 +1,8 @@
-    <%= image_tag vehicle.image_url , :class=> 'car-image' %>
+<% unless vehicle.images.blank? %>
+  <%= link_to vehicle_path(vehicle) do %>
+    <%= image_tag vehicle.images.first.url , :class=> 'car-image' %>
+    <% end %>
+  <% end %>
 
     <div class="label-list">
 

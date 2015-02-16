@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150205191038) do
+ActiveRecord::Schema.define(version: 20150212065754) do
 
   create_table "brand_model_tencents", force: true do |t|
     t.integer  "brand_id"
@@ -37,6 +37,8 @@ ActiveRecord::Schema.define(version: 20150205191038) do
     t.string   "hd_pics",                limit: 1000
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "good_comments"
+    t.string   "bad_comments"
   end
 
   create_table "car_brands", force: true do |t|
@@ -104,6 +106,13 @@ ActiveRecord::Schema.define(version: 20150205191038) do
     t.datetime "updated_at"
   end
 
+  create_table "images", force: true do |t|
+    t.string   "url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "vehicle_id"
+  end
+
   create_table "taggings", force: true do |t|
     t.integer  "tag_id"
     t.integer  "taggable_id"
@@ -130,6 +139,19 @@ ActiveRecord::Schema.define(version: 20150205191038) do
     t.string   "image_url"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "xcar_short_comments", force: true do |t|
+    t.string   "brand_name"
+    t.string   "serial_name"
+    t.string   "good_comments"
+    t.string   "short_comments"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "brand_id"
+    t.integer  "serial_id"
+    t.integer  "tencent_sid"
+    t.string   "hd_pic"
   end
 
 end

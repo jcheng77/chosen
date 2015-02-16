@@ -4,6 +4,9 @@ Rails.application.routes.draw do
       put 'add_tag'
       get 'switch'
     end
+    collection do
+      get 'qq_data'
+    end
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

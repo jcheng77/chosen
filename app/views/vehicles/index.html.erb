@@ -11,7 +11,7 @@ Current selected tags:
 
 <%= button_to "clear filter", clear_tags_path, :method => 'get' %>
 
-    <% @vehicles.each_with_index do |vehicle,i| %>
+    <% @vehicles.first(10).each_with_index do |vehicle,i| %>
 <div class="car-pic-whole">
       <div class="row">
       <%= render :partial => 'vehicle' , :locals => { :vehicle => vehicle } %>
